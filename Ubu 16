@@ -1,0 +1,8 @@
+apt-get -y -f update && apt-get -y -f upgrade && apt-get -y -f install nano && apt-get -y -f install wget && apt-get -y -f install vim
+apt-get -y install wget curl gcc make wget tzdata git libreadline-dev libncurses-dev libssl-dev zlib1g-dev
+apt-get install upstart
+apt-get install checkinstall build-essential -y
+wget http://www.softether-download.com/files/softether/v4.25-9656-rtm-2018.01.15-tree/Linux/SoftEther_VPN_Server/64bit_-_Intel_x64_or_AMD64/softether-vpnserver-v4.25-9656-rtm-2018.01.15-linux-x64-64bit.tar.g
+tar xzvf softether-vpnserver-v4.25-9656-rtm-2018.01.15-linux-x64-64bit.tar.gz
+cd vpnserver
+make
